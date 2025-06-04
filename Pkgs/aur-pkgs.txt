@@ -18,9 +18,11 @@ endeavouros-keyring
 ftxui
 hyde-cli-git
 hyprpanel
+localsend-bin
 manga-cli-git
 mov-cli
 muezzin-bin
+neofetch
 nitch
 nudoku
 osd-bin
@@ -49,4 +51,5 @@ toipe
 tty-clock
 v4l-utils-git
 vencord-installer-cli-bin
+wlroots
 xwaylandvideobridge

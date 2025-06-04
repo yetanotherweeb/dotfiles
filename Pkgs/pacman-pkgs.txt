@@ -49,7 +49,6 @@ cliphist
 cliwrap-git
 cmatrix
 cmus
-code
 code-marketplace
 cowsay
 cpufetch
@@ -87,7 +86,6 @@ ffmpegthumbs
 figlet
 fish
 fisher
-flatpak
 font-manager
 fsarchiver
 ftxui
@@ -132,6 +130,7 @@ interception-tools
 inxi
 iptables-nft
 iwd
+jedi-language-server
 jfsutils
 kcron
 kde-cli-tools
@@ -160,12 +159,14 @@ libcava
 libdvdcss
 libgsf
 libopenraw
+libreoffice-fresh
 libvirt
 libwnck3
 linux
 linux-firmware
 linux-firmware-whence
 linux-headers
+localsend-bin
 logrotate
 lolcat
 lsb-release
@@ -293,8 +294,8 @@ python-pyqt6
 python-pyqt6-webengine
 python-pystray
 python-rich
+python-urwid
 qbittorrent
-qemu-base
 qt5-imageformats
 qt5-quickcontrols
 qt5ct
@@ -347,6 +348,7 @@ tldr
 tmux
 tofi
 toipe
+trackma-git
 tree
 ts-node
 ttf-bitstream-vera
@@ -369,6 +371,7 @@ vencord-installer-cli-bin
 ventoy-bin
 vi
 vim
+visual-studio-code-bin
 w3m
 waifu2x-ncnn-vulkan
 waybar

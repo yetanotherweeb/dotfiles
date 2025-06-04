@@ -7,7 +7,7 @@
     "output": [ "*" ],
     "position": "top",
     "mod": "dock",
-    "height": 31,
+    "height": 30,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -16,9 +16,9 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","privacy","tray","custom/r_end","custom/l_end","custom/notification","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","hyprland/language","custom/r_end","custom/l_end","privacy","tray","custom/r_end","custom/l_end","custom/notification","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -36,24 +36,6 @@
         }
     },
 
-	"wlr/taskbar": {
-		"format": "{icon}",
-		"rotate": 0,
-		"icon-size": 18,
-		"icon-theme": "Tela-circle-dracula",
-        "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-		"ignore-list": [
-			"Alacritty"
-		],
-		"app_ids-mapping": {
-			"firefoxdeveloperedition": "firefox-developer-edition",
-      "jetbrains-datagrip": "DataGrip"
-		}
-	},
-
     "idle_inhibitor": {
         "format": "{icon}",
         "rotate": 0,
@@ -65,9 +47,9 @@
         "tooltip-format-deactivated":"Caffeine Mode Inactive"
     },
     "clock": {
-        "format": "{:%I:%M %p}",
+        "format": "{:%H:%M}",
         "rotate": 0,
-        "format-alt": "{:%R 󰃭 %d·%m·%y}",
+        "format-alt": "{:%R  󰃭  %d·%m·%y}",
         "tooltip-format": "<span>{calendar}</span>",
         "calendar": {
             "mode": "month",
@@ -165,8 +147,14 @@
         "on-click": "keybinds_hint.sh"
     },
 
+    "hyprland/language": {
+        "format": "{short} {variant}",
+        "rotate": 0,
+        "on-click": "keyboardswitch.sh",
+    },
+
     "privacy": {
-        "icon-size": 14,
+        "icon-size": 13,
         "icon-spacing": 5,
         "transition-duration": 250,
         "modules": [
