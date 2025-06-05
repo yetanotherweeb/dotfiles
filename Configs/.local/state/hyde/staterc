@@ -1,3 +1,4 @@
 HYDE_THEME="Catppuccin Mocha"
-rofiStyle="style_10"
+rofiStyle="launchpad"
 HYPR_ANIMATION="high-edited"
+enableWallDcol="0"

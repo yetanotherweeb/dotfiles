@@ -55,7 +55,7 @@ mainbox {
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    margin:                      0% 28%;
+    margin:                      0% 23%;
     padding:                     10px;
     border:                      1px solid;
     border-radius:               6px;

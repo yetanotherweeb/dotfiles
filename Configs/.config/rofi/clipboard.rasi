@@ -6,7 +6,6 @@ configuration {
 
 @theme "~/.config/rofi/theme.rasi"
 
-
 // Main //
 window {
     width:                       23em;

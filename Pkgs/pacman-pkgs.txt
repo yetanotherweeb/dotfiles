@@ -305,6 +305,7 @@ rebuild-detector
 reflector
 reflector-simple
 reiserfsprogs
+rofi-calc
 rofi-wayland
 rsync
 rtkit
